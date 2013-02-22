@@ -2,12 +2,19 @@ Stage 1: The ballot hardware
 =============================
 
 **Title:** The DemTech Kiosk Voting System: Hardware
+
 **Type:** 15 ECTS point special course
+
 **Responsible:** Attila
+
 **Expected Deadline:** April 22
+
 **Expected Outcome:** A hardware capable of replacing the current danish paper-based ballots.
+
 **Assessment:** written report?
+
 **Language:** English
+
 
 Problem formulation:
 --------------------
