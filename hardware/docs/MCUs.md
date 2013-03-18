@@ -31,6 +31,18 @@ Power consumption at 1Mhz, 1.8V, 25C:
 
 	- Power-save Mode: 0.5uA (including the 32kHz RTC)
 
+Security features: Boot and Application program section. FUSES allow the areas to be locked for both reading or writing.
+"The Lock bits and Fuses are not located in the normal flash or EEPROM space, nor
+are they accessible from the software, except for Lock bits related to the Boot
+Loader in devices with the Self-Programming feature."
+
+"The Lock bit security is exactly as in parallel programming mode. If the Lock bits LB1 or LB2 are
+programmed, the OCDEN Fuse cannot be programmed unless first doing a chip erase. This is a
+security feature that ensures no back-door exists for reading out the content of a secured
+device."
+
+"The Lock bits can only be cleared by executing Chip Erase."
+
 
 Possible candidates:
 
@@ -68,6 +80,10 @@ Pin count: 18-100
 
 I/O pin count: 15-87
 
+Security features: Similar lock fuses as the AVRS, preventing the reading and or writing of flash and EEPROM
+
+http://www.bunniestudios.com/blog/?page_id=40
+
 
 Possible candidates:
 
@@ -89,8 +105,9 @@ RAM: up to 16KB
 
 
 
+
+
 Comparison
 ----------
 TBD
 
------------------------------------------------------
