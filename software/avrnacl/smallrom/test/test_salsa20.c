@@ -1,0 +1,49 @@
+/*
+ * File:   avrnacl-20130415/smallrom/test/test_salsa20.c
+ * Author: Michael Hutter, Peter Schwabe
+ * Public Domain
+ */
+
+#include "crypto_stream.h"
+#include "print.h"
+#include "msgkey.h"
+
+static const unsigned char stream[MLEN] = {0xa3, 0xc3, 0xf0, 0xd7, 0x32, 0x2b, 0x06, 0x27, 0x7f, 0x71, 0x05, 0x90, 0x5d, 0xfd, 0x3a, 0x3e, 
+  0xa5, 0x8d, 0x5c, 0x25, 0x6a, 0xdb, 0x5b, 0xf9, 0xc9, 0x77, 0x62, 0x7e, 0xf5, 0xbd, 0x60, 0xc7, 
+  0x73, 0x7d, 0x8e, 0xbd, 0x79, 0xbf, 0xde, 0x0a, 0x53, 0x87, 0x70, 0x88, 0xca, 0x53, 0x7c, 0x7d, 
+  0xb6, 0x4a, 0xe7, 0x13, 0x2b, 0x6a, 0x5d, 0x02, 0x24, 0xaf, 0xec};
+
+extern unsigned char msg[MLEN];
+extern unsigned char key[KEYLEN];
+extern unsigned char nonce[NONCELEN];
+static unsigned char c[MLEN];
+
+void test_salsa20()
+{
+  int i;
+  unsigned char t[MLEN];
+
+  crypto_stream(c,MLEN,nonce,key);
+  for(i=0;i<MLEN;i++)
+    if(c[i] != stream[i])
+    {
+      print("-1\r\n");
+      return;
+    }
+  print("0\r\n");
+  
+
+
+  for(i=0;i<MLEN;i++)
+    t[i] = stream[i];
+
+  crypto_stream_xor(c,t,MLEN,nonce,key);
+
+  for(i=0;i<MLEN;i++)
+    if(c[i] != 0)
+    {
+      print("-1\r\n");
+      return;
+    }
+  print("0\r\n");
+}
