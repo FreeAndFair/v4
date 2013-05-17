@@ -1,0 +1,178 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sat 04 May 2013 11:58:39 AM CEST
+
+BeginCmp
+TimeStamp = /51372846;
+Reference = C1;
+ValeurCmp = 22 uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51373AA2;
+Reference = C2;
+ValeurCmp = 22 pF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51373ACC;
+Reference = C3;
+ValeurCmp = 22 pF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /516BF6A1;
+Reference = C4;
+ValeurCmp = 1 uF;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /516BF688;
+Reference = C5;
+ValeurCmp = 1 uF;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /516BF052;
+Reference = C6;
+ValeurCmp = 1 uF;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /516BF1A6;
+Reference = C7;
+ValeurCmp = 1 uF;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5184DB1C;
+Reference = C8;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5184DC76;
+Reference = C9;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5184DC67;
+Reference = C10;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51371C6A;
+Reference = Crystal1;
+ValeurCmp = 20 Mhz;
+IdModule  = HC-49V;
+EndCmp
+
+BeginCmp
+TimeStamp = /516B1240;
+Reference = EXTMEM1;
+ValeurCmp = AT45DB161-RC;
+IdModule  = S0IC28N;
+EndCmp
+
+BeginCmp
+TimeStamp = /51371C04;
+Reference = IC1;
+ValeurCmp = ATMEGA1284P-P;
+IdModule  = DIP-40__600;
+EndCmp
+
+BeginCmp
+TimeStamp = /5180FCBB;
+Reference = ICSP1;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /51372C0F;
+Reference = LED1;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51372BFA;
+Reference = LED2;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /516BF7CB;
+Reference = P1;
+ValeurCmp = CONN_5;
+IdModule  = PIN_ARRAY_5x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51372FF1;
+Reference = PWR1;
+ValeurCmp = CONN_2;
+IdModule  = PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /51372721;
+Reference = R1;
+ValeurCmp = 4.7 kOhm;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51372726;
+Reference = R2;
+ValeurCmp = 4.7 kOhm;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /513723F4;
+Reference = R3;
+ValeurCmp = 100 kOhm;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /516BEA42;
+Reference = R4;
+ValeurCmp = 1 kOhm;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /516BEA51;
+Reference = R5;
+ValeurCmp = 1 kOhm;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /516BEC52;
+Reference = SERIAL1;
+ValeurCmp = DB9;
+IdModule  = DB9MC;
+EndCmp
+
+BeginCmp
+TimeStamp = /516B0BD7;
+Reference = U1;
+ValeurCmp = MAX232;
+IdModule  = DIP-16__300;
+EndCmp
+
+EndListe
