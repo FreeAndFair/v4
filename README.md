@@ -32,7 +32,8 @@ Discussion
 To participate in an election in Denmark today, a voter:
 
 1. goes to their assigned polling place,
-2. identifies him/herself using a voter card that was mailed to them in the preceeding weeks,3. is handed a paper ballot,
+2. identifies him/herself using a voter card that was mailed to them in the preceding weeks,
+3. is handed a paper ballot,
 4. goes into a private polling booth,
 5. uses a pencil to mark the ballot in a single location to indicate their vote,
 6. folds the completed ballot to hide their mark,
@@ -191,7 +192,7 @@ This system is designed and developed to:
 
 * be one of the systems demonstrated to the Danish government in 2013,
 * be one of the systems demonstrated and evaluated by Danish voters in the 2013 elections,
-* be exhibited to the world as the best evoting system every produced,
+* be exhibited to the world as the best evoting system ever produced,
 * be used as a model for best-in-industry systems development in election equipment,
 * be a case-study in our early ideas in the Trust-by-Design methodology,
 * and fulfill the evaluation requirements injected by DemTech members, partners, the government, and the electorate.
