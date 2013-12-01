@@ -1,9 +1,9 @@
 include <projectbox.scad>
 
-compute_box_width = 105; // in cm
-compute_box_height = 57; // in cm
-button_box_width = 105;  // in cm
-button_box_height = 120; // in cm
+compute_box_width = 105; // in mm
+compute_box_height = 57; // in mm
+button_box_width = 105;  // in mm
+button_box_height = 120; // in mm
 
 
 module computebox() {
